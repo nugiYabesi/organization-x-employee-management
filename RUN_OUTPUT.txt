@@ -1,0 +1,324 @@
+
+==================================================
+ ORGANIZATION X - EMPLOYEE TESTING CONSOLE
+==================================================
+1. Black Box Testing
+2. White Box Testing
+3. Exit
+Choose an option: 
+--------------- BLACK BOX TESTING ---------------
+1. TC-BB-01 - Save valid employee
+2. TC-BB-02 - Reject blank employee name
+3. TC-BB-03 - Reject negative hours worked
+4. TC-BB-04 - Reject duplicate employee ID
+5. TC-BB-05 - Remove existing employee
+6. TC-BB-06 - Report missing employee ID
+7. TC-BB-07 - Calculate overtime + Management bonus + tax
+8. TC-BB-08 - Payroll report, retrieval, listing and count
+9. Interactive SAVE EMPLOYEE
+0. Exit to main menu
+Choose a black-box test: EXPECTED: Employee is saved and count becomes 1.
+ACTUAL:   Employee saved successfully. | count=1
+RESULT:   PASS
+
+Press ENTER to return to the testing menu...
+
+--------------- BLACK BOX TESTING ---------------
+1. TC-BB-01 - Save valid employee
+2. TC-BB-02 - Reject blank employee name
+3. TC-BB-03 - Reject negative hours worked
+4. TC-BB-04 - Reject duplicate employee ID
+5. TC-BB-05 - Remove existing employee
+6. TC-BB-06 - Report missing employee ID
+7. TC-BB-07 - Calculate overtime + Management bonus + tax
+8. TC-BB-08 - Payroll report, retrieval, listing and count
+9. Interactive SAVE EMPLOYEE
+0. Exit to main menu
+Choose a black-box test: EXPECTED: Registration is rejected because name is empty.
+ACTUAL:   ERROR: Name cannot be empty.
+RESULT:   PASS
+
+Press ENTER to return to the testing menu...
+
+--------------- BLACK BOX TESTING ---------------
+1. TC-BB-01 - Save valid employee
+2. TC-BB-02 - Reject blank employee name
+3. TC-BB-03 - Reject negative hours worked
+4. TC-BB-04 - Reject duplicate employee ID
+5. TC-BB-05 - Remove existing employee
+6. TC-BB-06 - Report missing employee ID
+7. TC-BB-07 - Calculate overtime + Management bonus + tax
+8. TC-BB-08 - Payroll report, retrieval, listing and count
+9. Interactive SAVE EMPLOYEE
+0. Exit to main menu
+Choose a black-box test: EXPECTED: Registration is rejected because hours worked are negative.
+ACTUAL:   ERROR: Hours worked cannot be negative.
+RESULT:   PASS
+
+Press ENTER to return to the testing menu...
+
+--------------- BLACK BOX TESTING ---------------
+1. TC-BB-01 - Save valid employee
+2. TC-BB-02 - Reject blank employee name
+3. TC-BB-03 - Reject negative hours worked
+4. TC-BB-04 - Reject duplicate employee ID
+5. TC-BB-05 - Remove existing employee
+6. TC-BB-06 - Report missing employee ID
+7. TC-BB-07 - Calculate overtime + Management bonus + tax
+8. TC-BB-08 - Payroll report, retrieval, listing and count
+9. Interactive SAVE EMPLOYEE
+0. Exit to main menu
+Choose a black-box test: EXPECTED: Second record is rejected because ID 104 already exists.
+ACTUAL:   ERROR: Employee ID is already in use.
+RESULT:   PASS
+
+Press ENTER to return to the testing menu...
+
+--------------- BLACK BOX TESTING ---------------
+1. TC-BB-01 - Save valid employee
+2. TC-BB-02 - Reject blank employee name
+3. TC-BB-03 - Reject negative hours worked
+4. TC-BB-04 - Reject duplicate employee ID
+5. TC-BB-05 - Remove existing employee
+6. TC-BB-06 - Report missing employee ID
+7. TC-BB-07 - Calculate overtime + Management bonus + tax
+8. TC-BB-08 - Payroll report, retrieval, listing and count
+9. Interactive SAVE EMPLOYEE
+0. Exit to main menu
+Choose a black-box test: EXPECTED: Existing employee is removed and retrieval returns null.
+ACTUAL:   removed=true | retrieved=null
+RESULT:   PASS
+
+Press ENTER to return to the testing menu...
+
+--------------- BLACK BOX TESTING ---------------
+1. TC-BB-01 - Save valid employee
+2. TC-BB-02 - Reject blank employee name
+3. TC-BB-03 - Reject negative hours worked
+4. TC-BB-04 - Reject duplicate employee ID
+5. TC-BB-05 - Remove existing employee
+6. TC-BB-06 - Report missing employee ID
+7. TC-BB-07 - Calculate overtime + Management bonus + tax
+8. TC-BB-08 - Payroll report, retrieval, listing and count
+9. Interactive SAVE EMPLOYEE
+0. Exit to main menu
+Choose a black-box test: EXPECTED: System reports that ID 999 does not exist.
+ACTUAL:   Employee ID 999 does not exist.
+RESULT:   PASS
+
+Press ENTER to return to the testing menu...
+
+--------------- BLACK BOX TESTING ---------------
+1. TC-BB-01 - Save valid employee
+2. TC-BB-02 - Reject blank employee name
+3. TC-BB-03 - Reject negative hours worked
+4. TC-BB-04 - Reject duplicate employee ID
+5. TC-BB-05 - Remove existing employee
+6. TC-BB-06 - Report missing employee ID
+7. TC-BB-07 - Calculate overtime + Management bonus + tax
+8. TC-BB-08 - Payroll report, retrieval, listing and count
+9. Interactive SAVE EMPLOYEE
+0. Exit to main menu
+Choose a black-box test: EXPECTED: Gross=5005.00, Tax=1251.25, Net=3753.75
+ACTUAL:   Gross=5005.00, Tax=1251.25, Net=3753.75
+RESULT:   PASS
+
+Press ENTER to return to the testing menu...
+
+--------------- BLACK BOX TESTING ---------------
+1. TC-BB-01 - Save valid employee
+2. TC-BB-02 - Reject blank employee name
+3. TC-BB-03 - Reject negative hours worked
+4. TC-BB-04 - Reject duplicate employee ID
+5. TC-BB-05 - Remove existing employee
+6. TC-BB-06 - Report missing employee ID
+7. TC-BB-07 - Calculate overtime + Management bonus + tax
+8. TC-BB-08 - Payroll report, retrieval, listing and count
+9. Interactive SAVE EMPLOYEE
+0. Exit to main menu
+Choose a black-box test: EXPECTED: Two employees are listed/retrievable; count=2; report contains total, average and top earner.
+ACTUAL:   count=2 | retrieved=Grace | report generated=true
+RESULT:   PASS
+PAYROLL REPORT
+ID=108 | Grace | Gross=800.00 | Tax=120.00 | Net=680.00
+ID=109 | Henry | Gross=2090.00 | Tax=313.50 | Net=1776.50
+Total payroll (net): 2456.50
+Average net pay: 1228.25
+Top earner: Henry (1776.50)
+
+Press ENTER to return to the testing menu...
+
+--------------- BLACK BOX TESTING ---------------
+1. TC-BB-01 - Save valid employee
+2. TC-BB-02 - Reject blank employee name
+3. TC-BB-03 - Reject negative hours worked
+4. TC-BB-04 - Reject duplicate employee ID
+5. TC-BB-05 - Remove existing employee
+6. TC-BB-06 - Report missing employee ID
+7. TC-BB-07 - Calculate overtime + Management bonus + tax
+8. TC-BB-08 - Payroll report, retrieval, listing and count
+9. Interactive SAVE EMPLOYEE
+0. Exit to main menu
+Choose a black-box test: 
+==================================================
+ ORGANIZATION X - EMPLOYEE TESTING CONSOLE
+==================================================
+1. Black Box Testing
+2. White Box Testing
+3. Exit
+Choose an option: 
+--------------- WHITE BOX TESTING ---------------
+1. TC-WB-01 - addEmployee() valid path
+2. TC-WB-02 - addEmployee() validation branch
+3. TC-WB-03 - addEmployee() duplicate-ID branch
+4. TC-WB-04 - removeEmployee() true branch
+5. TC-WB-05 - removeEmployee() false branch
+6. TC-WB-06 - calculateGrossPay() regular-hours branch
+7. TC-WB-07 - calculateGrossPay() overtime branch
+8. TC-WB-08 - calculateTax() boundary branches
+9. Interactive SAVE EMPLOYEE / validation path
+0. Exit to main menu
+Choose a white-box test: EXPECTED: All validation conditions are false and put() executes.
+ACTUAL:   Employee saved successfully. | size=1
+RESULT:   PASS
+
+Press ENTER to return to the testing menu...
+
+--------------- WHITE BOX TESTING ---------------
+1. TC-WB-01 - addEmployee() valid path
+2. TC-WB-02 - addEmployee() validation branch
+3. TC-WB-03 - addEmployee() duplicate-ID branch
+4. TC-WB-04 - removeEmployee() true branch
+5. TC-WB-05 - removeEmployee() false branch
+6. TC-WB-06 - calculateGrossPay() regular-hours branch
+7. TC-WB-07 - calculateGrossPay() overtime branch
+8. TC-WB-08 - calculateTax() boundary branches
+9. Interactive SAVE EMPLOYEE / validation path
+0. Exit to main menu
+Choose a white-box test: EXPECTED: Name-empty validation branch returns an error before insertion.
+ACTUAL:   ERROR: Name cannot be empty. | size=0
+RESULT:   PASS
+
+Press ENTER to return to the testing menu...
+
+--------------- WHITE BOX TESTING ---------------
+1. TC-WB-01 - addEmployee() valid path
+2. TC-WB-02 - addEmployee() validation branch
+3. TC-WB-03 - addEmployee() duplicate-ID branch
+4. TC-WB-04 - removeEmployee() true branch
+5. TC-WB-05 - removeEmployee() false branch
+6. TC-WB-06 - calculateGrossPay() regular-hours branch
+7. TC-WB-07 - calculateGrossPay() overtime branch
+8. TC-WB-08 - calculateTax() boundary branches
+9. Interactive SAVE EMPLOYEE / validation path
+0. Exit to main menu
+Choose a white-box test: EXPECTED: containsKey(id) is true and duplicate branch returns an error.
+ACTUAL:   ERROR: Employee ID is already in use. | size=1
+RESULT:   PASS
+
+Press ENTER to return to the testing menu...
+
+--------------- WHITE BOX TESTING ---------------
+1. TC-WB-01 - addEmployee() valid path
+2. TC-WB-02 - addEmployee() validation branch
+3. TC-WB-03 - addEmployee() duplicate-ID branch
+4. TC-WB-04 - removeEmployee() true branch
+5. TC-WB-05 - removeEmployee() false branch
+6. TC-WB-06 - calculateGrossPay() regular-hours branch
+7. TC-WB-07 - calculateGrossPay() overtime branch
+8. TC-WB-08 - calculateTax() boundary branches
+9. Interactive SAVE EMPLOYEE / validation path
+0. Exit to main menu
+Choose a white-box test: EXPECTED: removeEmployee() true branch is taken.
+ACTUAL:   true
+RESULT:   PASS
+
+Press ENTER to return to the testing menu...
+
+--------------- WHITE BOX TESTING ---------------
+1. TC-WB-01 - addEmployee() valid path
+2. TC-WB-02 - addEmployee() validation branch
+3. TC-WB-03 - addEmployee() duplicate-ID branch
+4. TC-WB-04 - removeEmployee() true branch
+5. TC-WB-05 - removeEmployee() false branch
+6. TC-WB-06 - calculateGrossPay() regular-hours branch
+7. TC-WB-07 - calculateGrossPay() overtime branch
+8. TC-WB-08 - calculateTax() boundary branches
+9. Interactive SAVE EMPLOYEE / validation path
+0. Exit to main menu
+Choose a white-box test: EXPECTED: removeEmployee() false branch is taken for a missing ID.
+ACTUAL:   false
+RESULT:   PASS
+
+Press ENTER to return to the testing menu...
+
+--------------- WHITE BOX TESTING ---------------
+1. TC-WB-01 - addEmployee() valid path
+2. TC-WB-02 - addEmployee() validation branch
+3. TC-WB-03 - addEmployee() duplicate-ID branch
+4. TC-WB-04 - removeEmployee() true branch
+5. TC-WB-05 - removeEmployee() false branch
+6. TC-WB-06 - calculateGrossPay() regular-hours branch
+7. TC-WB-07 - calculateGrossPay() overtime branch
+8. TC-WB-08 - calculateTax() boundary branches
+9. Interactive SAVE EMPLOYEE / validation path
+0. Exit to main menu
+Choose a white-box test: EXPECTED: hours <= 40 branch executes; gross=400.00
+ACTUAL:   Gross=400.00
+RESULT:   PASS
+
+Press ENTER to return to the testing menu...
+
+--------------- WHITE BOX TESTING ---------------
+1. TC-WB-01 - addEmployee() valid path
+2. TC-WB-02 - addEmployee() validation branch
+3. TC-WB-03 - addEmployee() duplicate-ID branch
+4. TC-WB-04 - removeEmployee() true branch
+5. TC-WB-05 - removeEmployee() false branch
+6. TC-WB-06 - calculateGrossPay() regular-hours branch
+7. TC-WB-07 - calculateGrossPay() overtime branch
+8. TC-WB-08 - calculateTax() boundary branches
+9. Interactive SAVE EMPLOYEE / validation path
+0. Exit to main menu
+Choose a white-box test: EXPECTED: hours > 40 branch executes; gross=415.00
+ACTUAL:   Gross=415.00
+RESULT:   PASS
+
+Press ENTER to return to the testing menu...
+
+--------------- WHITE BOX TESTING ---------------
+1. TC-WB-01 - addEmployee() valid path
+2. TC-WB-02 - addEmployee() validation branch
+3. TC-WB-03 - addEmployee() duplicate-ID branch
+4. TC-WB-04 - removeEmployee() true branch
+5. TC-WB-05 - removeEmployee() false branch
+6. TC-WB-06 - calculateGrossPay() regular-hours branch
+7. TC-WB-07 - calculateGrossPay() overtime branch
+8. TC-WB-08 - calculateTax() boundary branches
+9. Interactive SAVE EMPLOYEE / validation path
+0. Exit to main menu
+Choose a white-box test: EXPECTED: 4999 uses 15%; 5000 and above use 25%.
+ACTUAL:   4999=749.85 | 5000=1250.00 | 5001=1250.25
+RESULT:   PASS
+
+Press ENTER to return to the testing menu...
+
+--------------- WHITE BOX TESTING ---------------
+1. TC-WB-01 - addEmployee() valid path
+2. TC-WB-02 - addEmployee() validation branch
+3. TC-WB-03 - addEmployee() duplicate-ID branch
+4. TC-WB-04 - removeEmployee() true branch
+5. TC-WB-05 - removeEmployee() false branch
+6. TC-WB-06 - calculateGrossPay() regular-hours branch
+7. TC-WB-07 - calculateGrossPay() overtime branch
+8. TC-WB-08 - calculateTax() boundary branches
+9. Interactive SAVE EMPLOYEE / validation path
+0. Exit to main menu
+Choose a white-box test: 
+==================================================
+ ORGANIZATION X - EMPLOYEE TESTING CONSOLE
+==================================================
+1. Black Box Testing
+2. White Box Testing
+3. Exit
+Choose an option: Program ended.

@@ -1,0 +1,6 @@
+# PostgreSQL settings are supplied through Windows environment variables.
+# Do NOT put your real password in GitHub.
+#
+# ORGX_DB_URL=jdbc:postgresql://localhost:5432/organization_x
+# ORGX_DB_USER=postgres
+# ORGX_DB_PASSWORD=YOUR_POSTGRES_PASSWORD
